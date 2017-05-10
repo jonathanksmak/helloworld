@@ -5,13 +5,10 @@ Created on Tue May 02 16:22:07 2017
 @author: Jonathan PC
 """
 
-
-def main():
-    print("Hello User");
-    # TODO: Create 2 functions:
-    # Function 1: Ask for a user name from the console
-    # Function 2: Prints "Hello Jonathan Mak" where Jonathan Mak is the inputted user name
-
+def username():
+    prompt = "Hello, what is your name? ";
+    name = raw_input(prompt);
+    return name;
 
 if __name__ == '__main__':
-    main()
+    print "Hello " + username()
